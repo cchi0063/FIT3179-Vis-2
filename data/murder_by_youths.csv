@@ -1,0 +1,129 @@
+﻿Country,Murders,Population,Per Mil,Drug-by-100k,Drug-Murders,Continent
+Afghanistan,5000,38928341,128.44,125," 48,660 ",Asia
+Albania,325,2985432,108.86,8, 239 ,Europe
+Algeria,1500,43851043,34.21,13," 5,701 ",Africa
+Angola,500,32866268,15.21,125," 41,083 ",Africa
+Argentina,660,39195777,16.84,63," 24,693 ",South America
+Armenia,26,2963234,8.77,18, 533 ,Europe
+Australia,88,21499881,4.09,16," 3,440 ",Oceania
+Austria,7,9006400,0.78,24," 2,162 ",Europe
+Azerbaijan,194,8539175,22.72,27," 2,306 ",Europe
+Bahrain,10,1701583,5.88,107," 1,821 ",Asia
+Bangladesh,1205,164689383,7.32,54," 88,932 ",Asia
+Belarus,267,9449321,28.26,51," 4,819 ",North America
+Belgium,37,11589616,3.19,427," 49,488 ",Europe
+Belize,5,397621,12.57,425," 1,690 ",Europe
+Benin,60,12123198,4.95,30," 3,637 ",Africa
+Bhutan,15,771612,19.44,12, 93 ,Asia
+Bolivia,112,11673029,9.59,45," 5,253 ",South America
+Bosnia and Herzegovina,2,3280815,0.61,14, 459 ,Europe
+Botswana,120,2351625,51.03,65," 1,529 ",Africa
+Brazil,20386,182559409,111.67,89," 162,478 ",South America
+Brunei,2,437479,4.57,43, 188 ,Asia
+Bulgaria,51,7348445,6.94,31," 2,278 ",Europe
+Burma,45,54409800,0.83,6," 3,265 ",Asia
+Burundi,25,11890781,2.1,7, 832 ,Africa
+Cambodia,25,16718971,1.5,35," 5,852 ",Asia
+Canada,143,33742157,4.24,62," 20,920 ",North America
+Central African Republic,25,4829764,5.18,64," 3,091 ",Africa
+Chad,25,16425859,1.52,30," 4,928 ",Africa
+Chile,146,15116209,9.66,25," 3,779 ",South America
+China,250,1439323774,0.17,3," 43,180 ",Asia
+Colombia,12834,39882884,321.79,245," 97,713 ",South America
+Congo,25,5518092,4.53,123," 6,787 ",Africa
+Costa Rica,75,4094114,18.32,9, 368 ,North America
+Croatia,21,4505268,4.66,188," 8,470 ",Europe
+Cuba,348,10926616,31.85,12," 1,311 ",North America
+Czechia,36,10708982,3.36,29," 3,106 ",Europe
+Denmark,20,5792203,3.45,374," 21,663 ",Europe
+Ecuador,757,12143060,62.34,22," 2,671 ",South America
+Egypt,524,102334403,5.12,16," 16,374 ",Africa
+El Salvador,1147,6016201,190.65,18," 1,083 ",North America
+Estonia,33,1326539,24.88,73, 968 ,Europe
+Ethiopia,3154,114963583,27.43,88," 101,168 ",Africa
+Fiji,2,896444,2.23,3, 27 ,Oceania
+Finland,19,5540718,3.43,253," 14,018 ",Europe
+France,91,65273512,1.39,57," 37,206 ",Europe
+Gambia,52,2416664,21.52,15, 362 ,Africa
+Georgia,4,3989175,1,80," 3,191 ",Europe
+Germany,156,83783945,1.86,210," 175,946 ",Europe
+Greece,25,10423056,2.4,74," 7,713 ",Europe
+Guinea,25,13132792,1.9,5, 657 ,Africa
+Haiti,250,11402533,21.92,125," 14,253 ",North America
+Hungary,41,9660350,4.24,66," 6,376 ",Europe
+Iceland,2,341250,5.86,574," 1,959 ",Europe
+India,6254,1380004385,4.53,7," 96,600 ",Asia
+Indonesia,1142,273523621,4.18,12," 32,823 ",Asia
+Iran,325,83992953,3.87,25," 20,998 ",Asia
+Iraq,326,40222503,8.1,48," 19,307 ",Asia
+Ireland,10,4037796,2.48,85," 3,432 ",Europe
+Israel,13,6155541,2.11,448," 27,577 ",Asia
+Italy,210,60461828,3.47,55," 33,254 ",Europe
+Jamaica,2,2961161,0.68,463," 13,710 ",North America
+Japan,127,126476458,1,17," 21,501 ",Asia
+Jordan,12,10203140,1.18,5, 510 ,Asia
+Kazakhstan,631,14776707,42.7,68," 10,048 ",Asia
+Kenya,625,53771300,11.62,35," 18,820 ",Africa
+"Korea, South",282,45640000,6.18,25," 11,410 ",Asia
+Kosovo,23,1932774,11.9,35, 676 ,Europe
+Kuwait,14,1970563,7.1,12, 236 ,Asia
+Kyrgyzstan,88,4824191,18.24,46," 2,219 ",Asia
+Latvia,55,2386202,23.05,44," 1,050 ",Europe
+Lebanon,125,6825442,18.31,35," 2,389 ",Asia
+Liberia,62,5057677,12.26,35," 1,770 ",Africa
+Libya,125,6871287,18.19,45," 3,092 ",Africa
+Lithuania,59,3522291,16.75,34," 1,198 ",Europe
+Madagascar,253,27691019,9.14,16," 4,431 ",Africa
+Malaysia,125,32365998,3.86,59," 19,096 ",Asia
+Maldives,2,540542,3.7,250," 1,351 ",Asia
+Mauritania,25,4649660,5.38,25," 1,162 ",Africa
+Mauritius,4,1271767,3.15,305," 3,879 ",Africa
+Mexico,5991,102932753,58.2,52," 53,525 ",North America
+Moldova,96,3633963,26.42,62," 2,253 ",Europe
+Morocco,23,36910558,0.62,56," 20,670 ",Africa
+Nepal,2,29136808,0.07,1, 291 ,Asia
+Netherlands,60,17134873,3.5,100," 17,135 ",Europe
+New Zealand,20,4022233,4.97,250," 10,056 ",Oceania
+Nicaragua,139,5224554,26.61,29," 1,515 ",North America
+Nigeria,1250,206139587,6.06,45," 92,763 ",Africa
+Norway,11,4821242,2.28,622," 29,988 ",Europe
+Pakistan,1250,220892331,5.66,16," 35,343 ",Asia
+Panama,151,3014768,50.09,96," 2,894 ",North America
+Paraguay,191,5332530,35.82,4, 213 ,South America
+Peru,1250,32971846,37.91,35," 11,540 ",South America
+Philippines,3252,75581085,43.03,5," 3,779 ",Asia
+Poland,186,37846605,4.91,184," 69,638 ",Europe
+Portugal,37,10196707,3.63,42," 4,283 ",Europe
+Romania,169,23237682,7.27,15," 3,486 ",Europe
+Russia,7885,145934460,54.03,52," 75,886 ",Europe
+Rwanda,750,12952209,57.91,254," 32,899 ",Africa
+Saudi Arabia,250,34813867,7.18,52," 18,103 ",Asia
+Serbia,120,6804596,17.64,204," 13,881 ",Europe
+Singapore,15,3850343,3.9,10, 385 ,Asia
+Slovakia,26,5459643,4.76,32," 1,747 ",Europe
+Slovenia,4,1978932,2.02,89," 1,761 ",Europe
+Somalia,850,15893219,53.48,325," 51,653 ",Africa
+South Africa,650,59308690,10.96,116," 68,798 ",Africa
+Spain,96,41754783,2.3,29," 12,109 ",Europe
+Sri Lanka,65,21413250,3.04,228," 48,822 ",Asia
+Sudan,25,43849269,0.57,12," 5,262 ",Africa
+Sweden,16,9099270,1.76,734," 66,789 ",Europe
+Switzerland,17,7854618,2.16,628," 49,327 ",Europe
+Syria,523,17500657,29.88,19," 3,325 ",Asia
+Taiwan,25,23816775,1.05,25," 5,954 ",Asia
+Tajikistan,124,6137642,20.2,10, 614 ,Asia
+Thailand,1456,61799978,23.56,125," 77,250 ",Asia
+Trinidad and Tobago,55,1199491,45.85,5, 60 ,North America
+Turkey,1250,84339067,14.82,10," 8,434 ",Asia
+Uganda,2543,45741000,55.6,25," 11,435 ",Africa
+Ukraine,1273,49733759,25.6,139," 69,130 ",Europe
+United Arab Emirates,25,9890400,2.53,23," 2,275 ",Asia
+United Kingdom,139,62886004,2.21,125," 78,608 ",Europe
+Uruguay,36,3473727,10.36,22, 764 ,South America
+United States of America,8226,281002647,29.27,38," 106,781 ",North America
+Uzbekistan,249,23469199,10.61,125," 29,336 ",Asia
+Venezuela,2090,24035943,86.95,230," 55,283 ",South America
+Vietnam,652,97338583,6.7,12," 11,681 ",Asia
+Yemen,1245,29825968,41.74,320," 95,443 ",Asia
+Zambia,1236,18383956,67.23,110," 20,222 ",Africa
+Zimbabwe,254,14862927,17.09,41," 6,094 ",Africa

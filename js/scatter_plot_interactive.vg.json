@@ -2,9 +2,9 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
   "height": 600,
-  "title": "COVID-19 Cases per Country (13 Oct 2020)",
+  "title": "Murders by Youth vs Drug-relatd Murders (2000)",
   "data": {
-    "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"
+    "url": "../data/COVID_19_10_Oct_2020.csv"
   },
   "params": [
     {
@@ -45,28 +45,29 @@
     }
   ],
   "transform": [
-    {"filter": "datum.Active > 0"},
-    {"filter": "datum.Deaths > 0"},
+    {"filter": "datum.Murders > 0"},
+    {"filter": "datum.DrugRelated > 0"},
     {"filter": "datum.Population > Population_Above"},
     {
       "filter": "Continent_selection == null || datum.Continent == Continent_selection"
     },
     {
-      "calculate": "datum.Confirmed/datum.Population * 10000",
-      "as": "Cases per 10,000 Population"
+      "calculate": "datum.Murders/datum.Population * 1000000",
+      "as": "Murders by Youths per million Population"
     }
   ],
   "encoding": {
     "x": {
-      "field": "Confirmed",
+      "field": "Murders",
       "type": "quantitative",
-      "title": "Confirmed Cases",
-      "axis": {"tickCount": 7},
-      "scale": {"type": "log", "domain": [1, 10000000]}
+      "title": "Murders Committed by Youths",
+      "axis": {"tickCount": 5},
+      "scale": {"type": "log", "domain": [1, 100000]}
     },
     "y": {
-      "field": "Deaths",
+      "field": "DrugRelated",
       "type": "quantitative",
+      "title": "DrugRelated Murders",
       "axis": {"tickCount": 6},
       "scale": {"type": "log", "domain": [1, 1000000]}
     }
@@ -110,12 +111,10 @@
         "opacity": {"value": 0.6},
         "tooltip": [
           {"field": "Country", "type": "nominal"},
-          {"field": "Confirmed", "type": "quantitative", "format": ","},
-          {"field": "Active", "type": "quantitative", "format": ","},
-          {"field": "Deaths", "type": "quantitative", "format": ","},
-          {"field": "Recovered", "type": "quantitative", "format": ","},
+          {"field": "Murders", "type": "quantitative", "format": ","},
+          {"field": "DrugRelated", "type": "quantitative", "format": ","},
           {
-            "field": "Cases per 10,000 Population",
+            "field": "Murders by Youths per million Population",
             "type": "quantitative",
             "format": ".2f"
           }
@@ -143,12 +142,10 @@
         },
         "tooltip": [
           {"field": "Country", "type": "nominal"},
-          {"field": "Confirmed", "type": "quantitative", "format": ","},
-          {"field": "Active", "type": "quantitative", "format": ","},
-          {"field": "Deaths", "type": "quantitative", "format": ","},
-          {"field": "Recovered", "type": "quantitative", "format": ","},
+          {"field": "Murders", "type": "quantitative", "format": ","},
+          {"field": "DrugRelated", "type": "quantitative", "format": ","},
           {
-            "field": "Cases per 10,000 Population",
+            "field": "Murders by Youths per million Population",
             "type": "quantitative",
             "format": ".2f"
           }

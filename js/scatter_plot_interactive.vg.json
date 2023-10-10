@@ -4,7 +4,7 @@
   "height": 600,
   "title": "Murders by Youth vs Drug-relatd Murders (2000)",
   "data": {
-    "url": "../data/murder_by_youths.csv"
+    "url": "https://raw.githubusercontent.com/cchi0063/FIT3179-Wk10-HW/main/data/murder_by_youths.csv"
   },
   "params": [
     {

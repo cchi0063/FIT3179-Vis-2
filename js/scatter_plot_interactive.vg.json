@@ -4,7 +4,7 @@
   "height": 600,
   "title": "Murders by Youth vs Drug-relatd Murders (2000)",
   "data": {
-    "url": "../data/COVID_19_10_Oct_2020.csv"
+    "url": "../data/murder_by_youths.csv"
   },
   "params": [
     {

@@ -11,7 +11,7 @@ body {
 }
 
 .page {
-    width: 1100px;
+    width: 1600px;
     background-color: white;
     margin: auto;
     padding: 50px;
@@ -23,11 +23,11 @@ body {
 }
 
 .vis-container-map {
-    width: 80%;
+    width: 60%;
 }
 
 .vis-container-splot {
-    width: 60%;
+    width: 40%;
 }
 
 .description h2,

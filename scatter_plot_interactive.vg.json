@@ -68,7 +68,7 @@
       "field": "DrugRelated",
       "type": "quantitative",
       "title": "Drug Related Crimes",
-      "axis": {"tickCount": 6},
+      "axis": {"tickCount": 5},
       "scale": {"type": "log", "domain": [10, 1000000]}
     }
   },

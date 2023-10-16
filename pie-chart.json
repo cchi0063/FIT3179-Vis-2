@@ -1,6 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Pie Chart with percentage_tooltip",
+    "title": "Number of Murders per Million for each Continent",
     "data": {
       "values": [
         {"Continent": "Africa", "Murders": 33.9},

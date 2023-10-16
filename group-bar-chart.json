@@ -23,7 +23,7 @@
       ]
     },
     "mark": "bar",
-    "width": 300, 
+    "width": {"step": 24}, 
     "encoding": {
       "x": {"field": "Continent"},
       "y": {"field": "Per Million", "type": "quantitative"},

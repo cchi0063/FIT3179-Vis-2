@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Pie Chart with percentage_tooltip",
+    "data": {
+      "values": [
+        {"Continent": "Africa", "Murders": 33.9},
+        {"Continent": "Asia", "Murders": 18.6},
+        {"Continent": "Europe", "Murders": 39.5},
+        {"Continent": "North America", "Murders": 59.3},
+        {"Continent": "South America", "Murders": 125.8},
+        {"Continent": "Oceania", "Murders": 8.2}
+      ]
+    },
+    "mark": {"type": "arc", "tooltip": true},
+    "encoding": {
+      "theta": {"field": "Murders", "type": "quantitative", "stack": "normalize"},
+      "color": {"field": "Continent", "type": "nominal"}
+    }
+  }

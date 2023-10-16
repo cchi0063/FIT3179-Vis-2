@@ -29,6 +29,19 @@
       "x": {"field": "Continent"},
       "y": {"field": "Per Million", "type": "quantitative"},
       "xOffset": {"field": "group"},
-      "color": {"field": "group"}
+      "color": {"field": "group", "type": "nominal",
+        "scale": {
+            "domain": [
+            "Murder by Youths",
+            "Drug Related Murders",
+            "Other Murders"  
+            ],
+            "range": [
+            "#7a0177",
+            "#f768a1",
+            "#fde0dd"           
+            ]
+            } 
+    }
     }
   }

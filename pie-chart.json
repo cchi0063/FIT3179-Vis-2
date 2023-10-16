@@ -13,7 +13,7 @@
       ]
     },
     "mark": {"type": "arc", "tooltip": false},
-    "width": 200,
+    "width": 150,
     "encoding": {
       "theta": {"field": "Murders", "type": "quantitative", "stack": "normalize"},
       "color": {"field": "Continent", "type": "nominal",

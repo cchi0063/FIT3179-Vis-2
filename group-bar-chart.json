@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Drug-related Crimes and Murders for Each Continent",
     "data": {
       "values": [
         {"Continent":"Africa", "group": "Murder by Youths", "Per Million":16.1},
@@ -23,7 +24,7 @@
       ]
     },
     "mark": "bar",
-    "width": {"step": 24}, 
+    "width": {"step": 50, "for": "position"},
     "encoding": {
       "x": {"field": "Continent"},
       "y": {"field": "Per Million", "type": "quantitative"},

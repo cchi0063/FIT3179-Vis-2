@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Pie Chart with percentage_tooltip",
-    "title": "Number of Murders per Million for each Continent",
+    "title": "Number of Murders per Million for each Continent (2001)",
     "data": {
       "values": [
         {"Continent": "Africa", "Murders": 33.9},
@@ -12,7 +12,7 @@
         {"Continent": "Oceania", "Murders": 8.2}
       ]
     },
-    "mark": {"type": "arc", "tooltip": false},
+    "mark": {"type": "arc", "tooltip": true},
     "width": 150,
     "encoding": {
       "theta": {"field": "Murders", "type": "quantitative", "stack": "normalize"},

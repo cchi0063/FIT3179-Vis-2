@@ -24,7 +24,7 @@
       ]
     },
     "mark": "bar",
-    "width": {"step": 50, "for": "position"},
+    "width": {"step": 50, "for": "offset"},
     "encoding": {
       "x": {"field": "Continent"},
       "y": {"field": "Per Million", "type": "quantitative"},

@@ -12,10 +12,32 @@
         {"Continent": "Oceania", "Murders": 8.2}
       ]
     },
-    "mark": {"type": "arc", "tooltip": true},
-    "width": 300,
+    "mark": {"type": "arc", "tooltip": false},
     "encoding": {
       "theta": {"field": "Murders", "type": "quantitative", "stack": "normalize"},
-      "color": {"field": "Continent", "type": "nominal"}
+      "color": {"field": "Continent", "type": "nominal",
+        "scale": {
+            "domain": [
+            "North America",
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Oceania"
+            ],
+            "range": [
+            "#e41a1c",
+            "#984ea3",
+            "#ff7f00",
+            "#a6cee3",
+            "#377eb8",
+            "#a65628"
+            ]
+            } 
+        },
+        "tooltip": [
+            {"field": "Continent", "type": "nominal"},
+            {"field": "Murders", "type": "quantitative"}
+          ]
     }
   }

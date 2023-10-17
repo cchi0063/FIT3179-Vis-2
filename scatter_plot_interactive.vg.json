@@ -133,7 +133,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'China' || datum['Country'] == 'United States of America' || datum['Country'] == 'Australia' ",
+            "test": "datum['Country'] == 'Brazil' || datum['Country'] == 'United States of America' || datum['Country'] == 'Australia' ",
             "value": 1
           },
           "value": 0

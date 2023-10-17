@@ -114,13 +114,8 @@
           {"field": "Country", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","},
           {"field": "Murders", "title": "Murders by Youths", "type": "quantitative", "format": ","},
-          {"field": "DrugRelated", "title": "Drug related crimes", "type": "quantitative", "format": ","},
-          {
-            "field": "Murders by Youths per million Population",
-            "title": "Murders by Youths per Mil", 
-            "type": "quantitative",
-            "format": ".2f"
-          }
+          {"field": "DrugRelated", "title": "Drug related crimes", "type": "quantitative", "format": ","}
+
         ]
       }
     },
@@ -138,7 +133,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'Columbia' || datum['Country'] == 'Mexico' || datum['Country'] == 'Australia' || datum['Country'] == 'United States'",
+            "test": "datum['Country'] == 'Colombia' || datum['Country'] == 'Mexico' || datum['Country'] == 'Australia' || datum['Country'] == 'United States'",
             "value": 1
           },
           "value": 0
@@ -147,13 +142,8 @@
           {"field": "Country", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","},
           {"field": "Murders", "title": "Murders by Youths", "type": "quantitative", "format": ","},
-          {"field": "DrugRelated", "title": "Drug related crimes", "type": "quantitative", "format": ","},
-          {
-            "field": "Murders by Youths per million Population",
-            "title": "Murders by Youths per Mil", 
-            "type": "quantitative",
-            "format": ".2f"
-          }
+          {"field": "DrugRelated", "title": "Drug related crimes", "type": "quantitative", "format": ","}
+         
         ]
       }
     }

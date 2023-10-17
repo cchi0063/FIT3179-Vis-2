@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Murders Committed by Youth (2001)",
+    "title": "Drug Related Murders (2001)",
     "width": 800,
     "height": 400,
     "data": {
@@ -58,7 +58,7 @@
             "scale": {
               "type": "threshold",
               "domain": [1, 50, 100, 150],
-              "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
+              "range": ["#f1eef6", "#d7b5d8", "#df65b0", "#dd1c77", "#980043"]
             }
           },
           "tooltip": [

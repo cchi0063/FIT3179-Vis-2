@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 600,
   "height": 400,
-  "title": "Murders by Youth vs Drug-relatd Crimes (2001)",
+  "title": "Murders by Youth vs GDP (2001)",
   "data": {
     "url": "murder_by_youths.csv"
   },
@@ -46,7 +46,7 @@
   ],
   "transform": [
     {"filter": "datum.Murders > 0"},
-    {"filter": "datum.DrugRelated > 0"},
+    {"filter": "datum.GDP > 0"},
     {"filter": "datum.Population > Population_Above"},
     {
       "filter": "Continent_selection == null || datum.Continent == Continent_selection"
@@ -66,11 +66,11 @@
       "scale": {"type": "log", "domain": [1, 100000]}
     },
     "y": {
-      "field": "DrugRelated",
+      "field": "GDP",
       "type": "quantitative",
-      "title": "Drug Related Crimes",
+      "title": "GDP (mil)",
       "axis": {"tickCount": 5},
-      "scale": {"type": "log", "domain": [10, 1000000]}
+      "scale": {"type": "log", "domain": [1, 100000]}
     }
   },
   "layer": [
@@ -100,12 +100,12 @@
               "Oceania"
             ],
             "range": [
-              "#e41a1c",
-              "#984ea3",
-              "#ff7f00",
-              "#a6cee3",
-              "#377eb8",
-              "#a65628"
+              "#b2182b",
+              "#67a9cf",
+              "#ef8a62",
+              "#2166ac",
+              "#d1e5f0",
+              "#fddbc7"
             ]
           }
         },
@@ -114,7 +114,7 @@
           {"field": "Country", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","},
           {"field": "Murders", "title": "Murders by Youths", "type": "quantitative", "format": ","},
-          {"field": "DrugRelated", "title": "Drug related crimes", "type": "quantitative", "format": ","}
+          {"field": "GDP", "title": "GDP (mil)", "type": "quantitative", "format": ","}
 
         ]
       }
@@ -133,7 +133,7 @@
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'Colombia' || datum['Country'] == 'Mexico' || datum['Country'] == 'Australia' ",
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'United States of America' || datum['Country'] == 'Australia' ",
             "value": 1
           },
           "value": 0
@@ -142,7 +142,7 @@
           {"field": "Country", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","},
           {"field": "Murders", "title": "Murders by Youths", "type": "quantitative", "format": ","},
-          {"field": "DrugRelated", "title": "Drug related crimes", "type": "quantitative", "format": ","}
+          {"field": "GDP", "title": "GBP (mil)", "type": "quantitative", "format": ","}
          
         ]
       }
